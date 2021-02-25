@@ -6,6 +6,7 @@ editor: multiple_choice
 type: problem
 extra_visible: false
 language: text
+teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -26,4 +27,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Un método abstracto no tiene comportamiento.
   checked: true
-name: Clase abstracta
+name: Es un trabajo para superclase
