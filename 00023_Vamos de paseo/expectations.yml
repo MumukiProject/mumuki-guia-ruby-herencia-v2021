@@ -69,3 +69,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: maximo_personas
   inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
+  inspection: DeclaresComputationWithArity1:entran?
