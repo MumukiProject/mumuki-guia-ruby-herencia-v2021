@@ -36,3 +36,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Aliado
   inspection: Not:DeclaresMethod:energia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Aliado
+  inspection: SourceContains:super
