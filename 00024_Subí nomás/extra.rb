@@ -24,7 +24,7 @@ class MedioDeTransporte
 	end
 end
 
-class Auto < Transporte
+class Auto < MedioDeTransporte
 	def maximo_personas
 		#<elipsis-for-student@
 		5
@@ -38,7 +38,7 @@ class Auto < Transporte
 	end
 end
 
-class Moto < Transporte
+class Moto < MedioDeTransporte
 	def maximo_personas
 		#<elipsis-for-student@
 		2
