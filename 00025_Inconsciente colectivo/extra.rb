@@ -1,4 +1,4 @@
-class Transporte
+class MedioDeTransporte
 	def initialize(combustible)
 		#<elipsis-for-student@
 		@combustible = combustible
