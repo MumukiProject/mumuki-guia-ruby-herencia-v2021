@@ -1,4 +1,4 @@
-Bien sabemos que los colectivos también necesitan cargar combustible como cualquier `MedioDeTransporte`, pero ¡qué molesto para los pasajeros!. Es por esto que cuando un `Colectivo` carga combustible, además de incrementarlo pierde a todos sus `@pasajeros`.
+Bien sabemos que los colectivos también necesitan cargar combustible como cualquier `MedioDeTransporte`, pero ¡qué molesto para los pasajeros! Es por esto que cuando un `Colectivo` carga combustible, además de incrementarlo pierde a todos sus `@pasajeros`.
 
 El tema es que si redefinimos `cargar_combustible!` en `Colectivo` vamos a repetir lógica con nuestra superclase `MedioDeTransporte`. No necesariamente gracias al mensaje `super`. 
 
