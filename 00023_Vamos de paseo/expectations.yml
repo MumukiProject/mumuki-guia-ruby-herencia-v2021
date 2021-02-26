@@ -5,10 +5,10 @@ expectations:
   inspection: Declares:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresMethod:Auto
+  inspection: Declares:Auto
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresMethod:Moto
+  inspection: Declares:Moto
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
   inspection: Inherits:MedioDeTransporte
