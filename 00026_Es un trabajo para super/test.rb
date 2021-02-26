@@ -15,7 +15,7 @@ end
 it "Un colectivo aumenta su combustible en 50 litros cuando le cargamos 50 de combustible" do
   colectivo = Colectivo.new
   colectivo.cargar_combustible! 50
-  expect(colectivo.combustible).to eq 350
+  expect(colectivo.combustible).to eq 150
 end
 
 it "Un colectivo pierde sus pasajeros al cargar combustible" do
