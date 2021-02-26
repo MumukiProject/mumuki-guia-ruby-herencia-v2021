@@ -1,29 +1,29 @@
-class Moto
-  def litros
-    @litros
+class Notebook
+  def bateria 
+    @bateria
   end
 end
 
-moto = Moto.new
+notebook = Notebook.new
 
-it "Una moto inicializa con 20 litros de combustible" do
-  expect(moto.litros).to eq 20
+it "Una notebook inicializa con 100 de bateria" do
+  expect(notebook.bateria).to eq 100
 end
 
-it "Una moto no es ligera al iniciar" do
-  expect(moto.ligero?).to be false
+it "Una notebook gasta 60 de batería si lo uso una hora" do
+  notebook.cargar_a_tope!
+  notebook.utilizar! 60
+  expect(notebook.bateria).to eq 40
 end
 
-it "Una moto gasta 0.1 litros por cada kilómetro que se la conduce" do
-  moto.conducir!(150)
-  expect(moto.litros).to eq (20 - (0.1 * 150))
+it "Una notebook gasta 30 de batería si lo uso media hora" do
+  notebook.cargar_a_tope!
+  notebook.utilizar! 30
+  expect(notebook.bateria).to eq 70
 end
 
-it "Una moto es ligera después de conducirla muchos kilómetros" do
-  moto.ligero?
-  expect(moto.ligero?).to be true
-end
-
-it "Una moto tiene cuatro ruedas" do
-  expect(moto.cantidad_de_ruedas).to eq 2
+it "Una notebook vuelve a tener 100 de batería si la cargo a tope" do
+  notebook.utilizar! 200
+  notebook.cargar_a_tope!
+  expect(notebook.bateria).to eq 100
 end
