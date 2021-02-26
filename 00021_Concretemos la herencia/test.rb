@@ -12,5 +12,5 @@ end
 
 it "Cuando un super zombi descansa una cantidad de minutos, restaura su salud en esa cantidad" do
   superzombi.descansar! 90
-  expect(zombi.salud).to eq 190
+  expect(superzombi.salud).to eq 190
 end
