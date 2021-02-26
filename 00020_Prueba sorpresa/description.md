@@ -10,7 +10,7 @@ Ya hablamos mucho de las ventajas de la herencia para evitar la repetición de l
 ム un_celu.descargado?
 ム un_celu.utilizar! 180
 ム un_celu.descargado?
-ム una_notebook.utilizar! 100
+ム una_notebook.utilizar! 50
 ム una_notebook.cargar_a_tope!
 ム una_notebook.descargado?
 ```
