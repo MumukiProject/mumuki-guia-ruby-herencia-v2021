@@ -49,27 +49,27 @@ end
 
 it "Una moto pierde 10 litros de combustible al recorrer 10 kilómetros" do
   moto = Moto.new 100
-  auto.recorrer! 10
-  expect(auto.combustible).to eq 90
+  moto.recorrer! 10
+  expect(moto.combustible).to eq 90
 end
 
 it "Una moto aumenta su combustible en 50 litros cuando le cargamos 50 de combustible" do
   moto = Moto.new 100
-  auto.cargar_combustible! 50
-  expect(auto.combustible).to eq 150
+  moto.cargar_combustible! 50
+  expect(moto.combustible).to eq 150
 end
 
 it "En una moto entran 2 personas" do
   moto = Moto.new 100
-  expect(auto.entran? 2).to be true
+  expect(moto.entran? 2).to be true
 end
 
 it "En una moto entran menos de 2 personas" do
   moto = Moto.new 100
-  expect(auto.entran? 1).to be true
+  expect(moto.entran? 1).to be true
 end
 
 it "En una moto no entran más 2 personas" do
   moto = Moto.new 100
-  expect(auto.entran? 3).to be false
+  expect(moto.entran? 3).to be false
 end
