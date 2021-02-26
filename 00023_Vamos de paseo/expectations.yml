@@ -38,9 +38,6 @@ expectations:
   inspection: DeclaresMethod:entran?
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: Not:DeclaresMethod:maximo_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: MedioDeTransporte
   inspection: Not:DeclaresMethod:recorrer!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
