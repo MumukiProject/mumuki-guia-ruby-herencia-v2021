@@ -6,4 +6,6 @@ Pero... ¿entonces no es un `MedioDeTransporte`?
 
 Sí, en realidad es un `MedioDeTransporte`, solo que responde distinto a `entran?`. Lo que podemos hacer es redefinir el método: si `Colectivo` define el método `entran?` va a evaluar ese código en lugar del de su superclase.
 
-En lugar de que MedioDeTransporte realice el cálculo, le agregamos a la propia Bicicleta el método peso, que lo calculará como la cantidad de ruedas multiplicado por 3.
+Ahora que sabemos que se pueden redefinir métodos, aprovechemos y cambiemos un poco más nuestra solución. Los colectivos siempre se inicializan con 100 de `@combustible` y con 0 `@pasajeros`. 
+
+> Redefiní los métodos `initialize` y `entran?` en la clase `Colectivo`.
