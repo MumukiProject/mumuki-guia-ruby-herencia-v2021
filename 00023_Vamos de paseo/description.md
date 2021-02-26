@@ -1,4 +1,4 @@
-Dejemos un poco atrás la tecnología y salgamos de paseo. ¿En qué vamos? :thinking:
+Desconectémonos un poco y salgamos de paseo. ¿En qué vamos? :thinking:
 
 Por ahora nuestras opciones son limitadas. Podemos elegir ir en `Auto` o en `Moto`. De ambos medios sabemos que: 
 
@@ -6,8 +6,7 @@ Por ahora nuestras opciones son limitadas. Podemos elegir ir en `Auto` o en `Mot
 * los autos pueden llevar 5 personas como máximo y al `recorrer!` una distancia consumen medio litro de `@combustible` por cada kilómetro recorrido;
 * las motos pueden llevar 2 personas y consumen un litro por kilómetro recorrido;
 * ambos pueden `cargar_combustible!` y al hacerlo suben su cantidad de `@combustible`;
-* ambos vehículos saben responder si `entran?` una cantidad de personas. Esto sucede cuando esa cantidad es menor al máximo que puede llevar.
-
+* ambos vehículos saben responder si `entran?` una cantidad de personas. Esto sucede cuando esa cantidad es menor al máximo que pueden llevar.
 
 ¡Vamos a modelar todo esto! :red_car::motorcycle:
 

@@ -63,3 +63,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: entran?
   inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: entran?
+  inspection: Not:UsesIf
