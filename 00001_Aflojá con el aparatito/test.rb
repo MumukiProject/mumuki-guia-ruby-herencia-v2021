@@ -1,10 +1,4 @@
-class Auto
-  def litros
-    @litros
-  end
-end
-
-auto = Auto.new
+celular = Celular.new
 
 it "Un auto inicializa con 40 litros de combustible" do
   expect(auto.litros).to eq 40
