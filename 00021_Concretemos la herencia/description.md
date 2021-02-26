@@ -1,4 +1,4 @@
-A diferencia de lo que pasaba con la clase abstracta `Dispositivo` y sus subclases `Celular` y `Notebook`, `Zombi`es una clase concreta  ¡y `SuperZombi` hereda de ella sin problemas! :open_mouth:
+A diferencia de lo que pasaba con la clase abstracta `Dispositivo` y sus subclases `Celular` y `Notebook`, `Zombi`es una clase concreta ¡y `SuperZombi` hereda de ella sin problemas! :open_mouth:
 
 _¿Esto quiere decir que los zombis existen?_ :scream:
 
