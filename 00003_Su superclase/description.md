@@ -28,4 +28,4 @@ La herencia nos permite que las *subclases*  (`Condor` y `Halcon`) posean los mi
 
 ¡Uf! ¡Eso fue un montón! :fearful: A ver si quedó claro. 
 
-> Definí la clase `Dispositivo` y modificá las clases que definiste anteriormente para evitar que haya métodos repetidos entre `Celular` y `Notebook`. 
+> Definí la clase `Dispositivo` y modificá las clases que definiste anteriormente para evitar que haya métodos repetidos entre `Celular` y `Notebook`. Es importante que en el editor definas arriba la superclase y abajo sus subclases.
