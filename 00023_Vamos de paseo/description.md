@@ -8,6 +8,6 @@ Por ahora nuestras opciones son limitadas. Podemos elegir ir en `Auto` o en `Mot
 * ambos pueden `cargar_combustible!` en la cantidad que digamos y al hacerlo suben su cantidad de `@combustible`;
 * ambos vehículos saben responder si `entran?` una cantidad de personas. Esto sucede cuando esa cantidad es menor al máximo que pueden llevar.
 
-¡Vamos a modelar todo esto! :red_car::motorcycle:
+¡Vamos a modelar todo esto! :red_car: :motorcycle:
 
 > Definí las clases `Moto`, `Auto` y `MedioDeTransporte` y hace que las dos primeras hereden de la tercera. También definí los métodos `initialize`, `recorrer!`, `cargar_combustible!`, `entran?` y `maximo_personas` donde correspondan.
