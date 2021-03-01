@@ -2,4 +2,4 @@
 
 La clase `Notebook` entiende los mismos mensajes que `Celular`, pero no siempre se comporta igual. Por ejemplo, a la hora de `utilizar!` una notebook, su `@bateria` se disminuye en la cantidad de minutos que la utilicemos.
 
-> Definí la clase `Notebook`, que sepa entender los mensajes `initialize`, `utilizar!` y `cargar_en_tope!`.
+> Definí la clase `Notebook`, que sepa entender los mensajes `initialize`, `utilizar!` y `cargar_a_tope!`.
