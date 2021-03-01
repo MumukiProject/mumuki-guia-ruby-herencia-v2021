@@ -26,4 +26,4 @@ De esta forma, al enviar el mensaje `saludar` a `SaludoDocente`, `super` **invoc
 => "Buen día estudiantes"
 ```
 
-> ¡Ahora te toca a vos! Redefiní el método `cargar!` en `Colectivo`, de modo que haga lo mismo que cualquier `MedioDeTransporte` y además se quede sin pasajeros. Recordá utilizar `super` para evitar repetir lógica.
+> ¡Ahora te toca a vos! Redefiní el método `cargar_combustible!` en `Colectivo`, de modo que haga lo mismo que cualquier `MedioDeTransporte` y además se quede sin pasajeros. Recordá utilizar `super` para evitar repetir lógica.
