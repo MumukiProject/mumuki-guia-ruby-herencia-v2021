@@ -11,19 +11,19 @@ class Saludo
   end
 end
 
-class SaludoFormal < Saludo
+class SaludoDocente < Saludo
   def saludar
-    super + " señoras y señores"
+    super + " estudiantes"
   end
 end
 ```
 
-De esta forma, al enviar el mensaje `saludar` a `SaludoFormal`, `super` **invoca** el método `saludar` de su superclase, `Saludo`. :wave: 
+De esta forma, al enviar el mensaje `saludar` a `SaludoDocente`, `super` **invoca** el método `saludar` de su superclase, `Saludo`. :wave: 
 
 ```ruby
-ム mi_saludo = SaludoFormal.new
+ム mi_saludo = SaludoDocente.new
 ム mi_saludo.saludar
-=> "Buen día señoras y señores"
+=> "Buen día estudiantes"
 ```
 
 > ¡Ahora te toca a vos! Redefiní el método `cargar!` en `Colectivo`, de modo que haga lo mismo que cualquier `MedioDeTransporte` y además se quede sin pasajeros. Recordá utilizar `super` para evitar repetir lógica.
