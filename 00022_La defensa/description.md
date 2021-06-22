@@ -1,4 +1,4 @@
-Zombis por aquí, super zombis por allá, ¿quién podra ayudarnos? :cold_sweat:
+Zombis por aquí, super zombis por allá, ¿quién podrá ayudarnos? :cold_sweat:
 
 ¡Volvieron las clases `Sobreviviente` y `Aliado`! Veamos parte de su comportamiento:
 
