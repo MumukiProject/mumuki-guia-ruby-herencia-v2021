@@ -15,3 +15,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Celular
   inspection: DeclaresComputationWithArity1:utilizar!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: utilizar!
+  inspection: Not:Uses:*
