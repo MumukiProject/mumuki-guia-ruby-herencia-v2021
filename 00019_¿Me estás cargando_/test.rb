@@ -30,7 +30,7 @@ it "Una notebook está descargada cuando tiene 20 de batería" do
   expect(notebook.descargado?).to be true
 end
 
-it "Una notebook no está descargada cuando tiene 20 de batería" do
+it "Una notebook no está descargada cuando tiene más de 20 de batería" do
   notebook.cargar_a_tope!
   notebook.utilizar! 79
   expect(notebook.descargado?).to be false
