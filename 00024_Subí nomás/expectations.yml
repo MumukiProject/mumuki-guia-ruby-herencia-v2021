@@ -17,7 +17,7 @@ expectations:
   inspection: Not:DeclaresMethod:initialize
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: Not:DeclaresMethod:cargar!
+  inspection: Not:DeclaresMethod:cargar_combustible!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: Not:DeclaresMethod:entran?
