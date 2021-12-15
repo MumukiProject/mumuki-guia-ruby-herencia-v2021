@@ -48,7 +48,7 @@ it "Un celular está descargado cuando tiene 20 de batería" do
   expect(celular.descargado?).to be true
 end
 
-it "Un celular está descargado cuando tiene 20 de batería" do
+it "Un celular no está descargado cuando tiene más de 20 de batería" do
   celular.cargar_a_tope!
   celular.utilizar! 158
   expect(celular.descargado?).to be false
