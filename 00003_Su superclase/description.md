@@ -1,4 +1,4 @@
-Una forma de organizar las clases cuando programamos en objetos es definir una **jerarquía**. En nuestro caso podemos pensar que `Celular` y `Notebook` se pueden englobar en algo más grande y que las incluye, la idea de `Dispositivo`. :iphone::computer:
+Una forma de organizar las clases cuando programamos en objetos es establecer una **jerarquía**. En nuestro caso podemos pensar que `Celular` y `Notebook` se pueden englobar en algo más grande que las incluya, la idea de `Dispositivo`. :iphone::computer:
 
 Muchas veces esa jerarquía se puede visualizar en el mundo real: por ejemplo, `Perro` y `Gato` entran en la categoría `Mascota`, mientras que `Cóndor` y `Halcón` se pueden clasificar como `Ave`. Cuando programemos, la jerarquía que utilicemos dependerá de nuestro modelo y de las abstracciones que utilicemos.
 
@@ -22,7 +22,7 @@ class Halcon < Ave
 end
 ```
 
-El símbolo `<` significa "hereda de": por ejemplo, `Condor` hereda de `Ave`, que está _más arriba_ en la jerarquía. Otra manera de decirlo es que cada `Condor` es una `Ave`.
+El símbolo `<` significa "hereda de": por ejemplo, `Condor` hereda de `Ave`, que está _más arriba_ en la jerarquía. Otra manera de decirlo es que cada `Condor` es un `Ave`.
 
 La herencia nos permite que las *subclases*  (`Condor` y `Halcon`) posean los mismos métodos y atributos que la *superclase* `Ave`. Es decir, las instancias de `Condor` y de `Halcon` van a saber `volar!` de la misma forma, pero cuando les enviemos el mensaje `dormir!` cada una hará algo diferente.
 
