@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: SourceContains:super
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: maximo_personas
+  inspection: Not:Assigns
